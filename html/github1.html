@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:200&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>GH Profile Finder</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div id="rowheight" class="col-md-6 offset-md-2 col-sm-6 offset-sm-2 col-xs-6 offset-xs-2">
+                GitHub Profile Finder
+            </div>
+        </div>
+
+        <div class="row">
+            <form class="form-inline">
+                <div class="mdl-textfield mdl-js-textfield">
+                    <input class="mdl-textfield__input" id="profil" type="text" placeholder="Enter a username">
+                </div>
+
+                <button type="submit" id="search" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+                    <i class="material-icons">search</i>
+                </button>
+            </form>
+        </div>
+        <div id="mainRow" class="row">
+            <div id="profilPicRow">
+                <img id="profilPic" src="">
+            </div>
+            <div>
+            <p id="profilName"></p>
+            <p id="profilUrlPara"><a target="_blank" id="profilUrl" href=""></a></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="../js/github.js"></script>
+
+</body>
+
+</html>

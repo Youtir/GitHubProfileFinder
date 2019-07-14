@@ -1,0 +1,83 @@
+body {
+    background-image: url("../img/notebookBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+p {
+    font-family: 'Muli', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 1.5s;
+}
+a:hover { 
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    color: floralwhite;
+    
+    padding: 5px;
+}
+
+#rowheight {
+    height: 70px;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-size: 48px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.offset-md-2 {
+    text-align: center;
+    border: solid 1px white;
+}
+
+#search {
+    background-color: transparent;
+}
+
+form {
+    width: 500px;
+    margin-left: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+::placeholder {
+    color: lightyellow;
+}
+
+#profil {
+    color: white;
+    border-bottom: 0.5px solid white;
+    text-align: center;
+}
+#mainRow{
+    height: 300px;
+    margin-top: 40px;
+}
+#profilPicRow {
+    height: 200px;
+    margin-left: 200px;
+    padding-right: 70px;
+    
+    
+}
+#profilPic{
+    height: 100%;
+    border-radius: 4px;
+
+}
+#profilUrlPara{
+    position: relative;
+    
+    top: 60px;
+}
+
